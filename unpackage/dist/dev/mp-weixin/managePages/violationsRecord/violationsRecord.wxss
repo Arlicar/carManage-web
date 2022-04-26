@@ -1,0 +1,49 @@
+
+.search {
+		background: #fff;
+		border-radius: 8rpx;
+		position: relative;
+		box-shadow: 0 2rpx 4rpx rgba(0, 0, 0, .3);
+		height: 80rpx;
+}
+.top {
+		background-color: #5eb9b2;
+		border-radius: 30rpx;
+		height: 280rpx;
+}
+.card {
+		background: #f4f4f4;
+		border-radius: 8rpx;
+		margin: 20rpx 0;
+		position: relative;
+		box-shadow: 0 2rpx 4rpx rgba(0, 0, 0, .3);
+		height: 180rpx;
+}
+.add-round {
+		position: fixed;
+		z-index: 999;
+		right: 30rpx;
+		bottom: 30rpx;
+		border-radius: 50%;
+		width: 120rpx;
+		height: 120rpx;
+		color: #fff;
+		text-align: center;
+		line-height: 120rpx;
+		font-weight: 100;
+		font-size: 80rpx;
+}
+.image{
+			width: 100rpx;
+			height: 100rpx;
+			background-color: #5eb9b2;
+			border-radius: 50rpx;
+}
+.date {
+			background: #fff;
+			border-radius: 8rpx;
+			position: relative;
+			box-shadow: 0 2rpx 4rpx rgba(0, 0, 0, .3);
+			height: 80rpx;
+}
+

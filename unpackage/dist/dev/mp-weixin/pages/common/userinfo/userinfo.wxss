@@ -1,0 +1,190 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 背景 */
+.content {
+	display: flex;
+	/* align-items: center; */
+	/* justify-content: center; */
+	flex-direction: column;
+	width: 100%;
+	height: 150%;
+	position: absolute;
+	background-image: linear-gradient(#7bc4ff, #4389f2);
+}
+/* 头部区域 */
+.top {
+	position: relative;
+	background-color: #62a9f9;
+	height: 250rpx;
+	border-bottom-left-radius: 20rpx;
+	border-bottom-right-radius: 20rpx;
+	box-shadow: 10rpx 10rpx 10rpx -4rpx rgba(0,0,0,.4);
+	margin-bottom: 30rpx;
+}
+.top .top-img{
+	position: absolute;
+	top: 15rpx;
+	left: 15rpx;
+	width: 200rpx;
+	height: 200rpx;
+	box-sizing: border-box;
+	box-shadow: 10rpx 10rpx 10rpx -4rpx rgba(0,0,0,.4);
+	border-radius: 50%;
+}
+.top .top-text{
+	position: absolute;
+	top: 80rpx;
+	right: 170rpx;
+	font-size: 55rpx;
+	font-weight: 600;
+	color: #DCDFE6;
+	text-shadow: 5rpx 5rpx 10rpx rgba(255,255,255,.4);
+}
+/* ---- */
+/* 功能区 */
+.wrap{
+		height: 262rpx;
+		display: flex;
+		justify-content: center;
+		border-radius: 20rpx;
+		margin-bottom: 40rpx;
+}
+.meun-wrap{
+	width: 600rpx;
+	height: 140rpx;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 40rpx;
+	box-shadow: 0px 2px 16px 0px rgba(17, 33, 50, 0.08);
+	border-radius: 20rpx;
+	margin-top: 20rpx;
+	background-color: #fff;
+}
+/* --- */
+/* 详情解释 */
+.meuns{
+	width: 168rpx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 32rpx;
+	font-weight: 540;
+	border-radius: 20rpx;
+	float: left;
+	margin: 0 65rpx;
+	margin-top: 20rpx;
+}
+.iconimg{
+		width: 50rpx;
+		height: 50rpx;
+		margin-bottom: 15rpx;
+}
+.card{
+	background-color: #fff;
+	border-radius: 8rpx;
+	position: relative;
+	box-shadow: 0 2rpx 4rpx rgba(0, 0, 0, .2);
+	height: 80rpx;
+	margin: 10rpx 60rpx;
+}
+/* -- */
+

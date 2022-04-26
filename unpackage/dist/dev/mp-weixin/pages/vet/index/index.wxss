@@ -1,0 +1,208 @@
+
+.content {
+	display: flex;
+	/* align-items: center; */
+	/* justify-content: center; */
+	background-image: linear-gradient(#7bc4ff, #4389f2);
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+/* 分段器<--- */
+.wrap {
+	margin-top: 20rpx;
+	height: 235rpx;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	border-radius: 10rpx;
+	background-color: #fff;
+	padding-top: 75rpx;
+	box-shadow: 0 10rpx 10rpx -4rpx rgba(0, 0, 0, .4);
+}
+.meuns {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 26rpx;
+	width: 180rpx;
+}
+.segmented-control__text.data-v-064e9cd1 {
+	color: white !important;
+}
+
+/* --->到这 */
+image {
+	width: 80rpx;
+	height: 80rpx;
+	margin-bottom: 15rpx;
+}
+.card {
+	position: relative;
+	display: flex;
+	background-color: #488df2;
+	border-radius: 15rpx;
+	margin: 20rpx 0;
+	box-shadow: 0 10rpx 10rpx -4rpx rgba(0, 0, 0, .4);
+	height: 50rpx;
+	justify-content: center;
+	/* 水平居中 */
+	align-items: center;
+	/* 垂直居中 */
+	color: #808080;
+}
+
+/* 头部欢迎界面《----- */
+.top {
+	position: relative;
+	background-color: #62a9f9;
+	height: 250rpx;
+	border-bottom-left-radius: 20rpx;
+	border-bottom-right-radius: 20rpx;
+	box-shadow: 10rpx 10rpx 10rpx -4rpx rgba(0, 0, 0, .4);
+	margin-bottom: 30rpx;
+}
+.top .top-img {
+	position: absolute;
+	top: 15rpx;
+	left: 15rpx;
+	width: 220rpx;
+	height: 220rpx;
+	box-sizing: border-box;
+	box-shadow: 10rpx 10rpx 10rpx -4rpx rgba(0, 0, 0, .4);
+	border-radius: 50%;
+}
+.top .top-text {
+	position: absolute;
+	top: 30rpx;
+	right: 110rpx;
+	font-size: 55rpx;
+	font-weight: 600;
+	color: #DCDFE6;
+	text-shadow: 5rpx 5rpx 10rpx rgba(255, 255, 255, .4);
+}
+.top .welcome {
+	position: absolute;
+	bottom: 40rpx;
+	right: 80rpx;
+	width: auto;
+	height: 80rpx;
+	line-height: 80rpx;
+	font-size: 40rpx;
+	font-weight: 600;
+	border-radius: 20rpx;
+	color: #DCDFE6;
+	-webkit-animation: welcomeShow 0.5s;
+	        animation: welcomeShow 0.5s;
+	-webkit-animation-timing-function: ease-out;
+	        animation-timing-function: ease-out;
+}
+
+/* 动画 */
+@-webkit-keyframes welcomeShow {
+0% {
+		bottom: 300rpx;
+}
+100% {
+		bottom: 40rpx;
+}
+}
+@keyframes welcomeShow {
+0% {
+		bottom: 300rpx;
+}
+50% {
+		bottom: 40rpx;
+}
+70% {
+		bottom: 80rpx;
+}
+80% {
+		bottom: 40rpx;
+}
+90% {
+		bottom: 60rpx;
+}
+100% {
+		bottom: 40rpx;
+}
+}
+
+/* -----》到这 */
+.line {
+	background-color: #ffffff;
+	border-radius: 50rpx;
+}
+.popup {
+	border-radius: 20rpx;
+	background-image: linear-gradient(135deg, #66a6ff 0%, #89f7fe 100%);
+	width: 580rpx;
+	box-shadow: 20rpx 20rpx 20rpx -4rpx rgba(0, 0, 0, .4);
+}
+.repaired {
+	width: 100%;
+	height: 80rpx;
+	border-radius: 80rpx;
+	line-height: 80rpx;
+	text-align: center;
+	color: #fff;
+	font-size: 45rpx;
+	font-weight: 600;
+	text-shadow: 5rpx 5rpx 5rpx rgba(255, 255, 255, .4);
+}
+.outer {
+	width: 475rpx;
+	height: 25rpx;
+	border-radius: 15rpx;
+	border: 4rpx solid #4facfe;
+}
+.inner {
+	height: 100%;
+	border-radius: 15rpx;
+	background-image: linear-gradient(to right, #76cbff 0%, #4facfe 100%);
+}
+.uni-pagination__btn.data-v-a276fa4e {
+	border-radius: 20rpx;
+	font-weight: 600;
+}
+
+/* 请根据需求修改图表容器尺寸，如果父容器没有高度图表则会显示异常 */
+
+/* 图表 */
+.charts-box {
+	width: 98%;
+	height: 370rpx;
+	background-color: rgba(255, 255, 255, .4);
+	border-radius: 15rpx;
+	margin-top: 18rpx;
+	margin-left: 7rpx;
+}
+.chart {
+	margin-top: 50rpx;
+	width: 715rpx;
+	height: 400rpx;
+	background-color: #549bf6;
+	border-radius: 15rpx;
+	box-shadow: 2rpx 2rpx 4rpx rgba(0, 0, 0, .4);
+	margin: 0 20rpx;
+}
+
+/* 按钮 */
+.btn {
+	font-size: 35rpx;
+	font-weight: 600;
+	margin: 10rpx 20rpx;
+	color: #FFFFFF;
+}
+
+/* 地图 */
+.map{
+	width: 670rpx;
+	height: 990rpx;
+	border-radius: 15rpx;
+	overflow: hidden;
+	box-shadow: 20rpx 20rpx 20rpx -4rpx rgba(0,0,0,.4);
+}
+

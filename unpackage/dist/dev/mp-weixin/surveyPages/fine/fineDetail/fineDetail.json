@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "违约记录详情页",
+  "usingComponents": {
+    "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card"
+  }
+}

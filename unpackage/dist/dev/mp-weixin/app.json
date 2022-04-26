@@ -1,0 +1,150 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/authentication/authentication",
+        "pages/login/login",
+        "pages/vet/index/index",
+        "pages/manage/index/index",
+        "pages/survey/index/index",
+        "pages/common/userinfo/userinfo",
+        "pages/common/userdetail/userdetail",
+        "pages/common/help/help",
+        "pages/common/changePwd/changePwd",
+        "pages/common/about/about"
+    ],
+    "subPackages": [
+        {
+            "root": "vetPages",
+            "pages": [
+                "examine/examine",
+                "carReport/carReport",
+                "carReport/drive/drive",
+                "carManagement/carManagement",
+                "carManagement/carDetail/carDetail",
+                "violationsRecord/violationsRecord",
+                "violationsRecord/violationDetail/violationDetail",
+                "fixRecord/fixRecord",
+                "fixRecord/fixDetail/fixDetail",
+                "protectRecord/protectRecord",
+                "protectRecord/protectDetail/protectDetail",
+                "examine/examDone/index",
+                "examine/examToDo/index",
+                "examine/examDone/lendCar/lendCar",
+                "examine/examDone/returnCar/returnCar",
+                "examine/examDone/sendCar/sendCar",
+                "examine/examDone/fix/fix",
+                "examine/examDone/protect/protect",
+                "examine/examToDo/lendCar/lendCar",
+                "examine/examToDo/returnCar/returnCar",
+                "examine/examToDo/sendCar/sendCar",
+                "examine/examToDo/fix/fix",
+                "examine/examToDo/protect/protect",
+                "examine/examineDetail/fixDetail",
+                "examine/examineDetail/protectDetail",
+                "examine/examineDetail/lendDetail",
+                "examine/examineDetail/returnDetail",
+                "examine/examineDetail/sendDetail"
+            ]
+        },
+        {
+            "root": "managePages",
+            "pages": [
+                "carManagement/carManagement",
+                "carManagement/carDetail/carDetail",
+                "declare/declare",
+                "declare/fixDeclare/fixDeclare",
+                "declare/protectDeclare/protectDeclare",
+                "declare/sendCarDeclare/sendCarDeclare",
+                "declareRecord/declareRecord",
+                "examine/examine",
+                "fine/fine",
+                "fixRecord/fixRecord",
+                "fixRecord/fixDetail/fixDetail",
+                "lend/lend",
+                "lend/lendCar/lendCar",
+                "lend/returnCar/returnCar",
+                "message/message",
+                "protectRecord/protectRecord",
+                "protectRecord/protectDetail/protectDetail",
+                "violationsRecord/violationsRecord",
+                "violationsRecord/violationsDetail/violationsDetail",
+                "declareRecord/protectDeclare/protectDeclare",
+                "declareRecord/protectDeclare/protectDetail/protectDetail",
+                "declareRecord/sendCarDeclare/sendCarDeclare",
+                "declareRecord/sendCarDeclare/sendDetail/sendDetail",
+                "declareRecord/lendCarDeclare/lendCarDeclare",
+                "declareRecord/lendCarDeclare/lendCarDetail/lendCarDetail",
+                "examine/examDone/examDone",
+                "examine/examToDo/examToDo",
+                "examine/examineDetail/examineDetail"
+            ]
+        },
+        {
+            "root": "surveyPages",
+            "pages": [
+                "declare/declare",
+                "carReport/carReport",
+                "carReport/drive/drive",
+                "declare/fixDeclare/fixDeclare",
+                "car-record/car-record",
+                "fine/fine",
+                "fine/fineDetail/fineDetail",
+                "car-record/drive/drive",
+                "investigation/investigation"
+            ]
+        }
+    ],
+    "window": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#62a9f9",
+        "backgroundColor": "#62a9f9"
+    },
+    "tabBar": {
+        "custom": true,
+        "color": "#7A7E83",
+        "selectedColor": "#3cc51f",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "pages/vet/index/index",
+                "text": "index"
+            },
+            {
+                "pagePath": "pages/manage/index/index",
+                "text": "index"
+            },
+            {
+                "pagePath": "pages/survey/index/index",
+                "text": "index"
+            },
+            {
+                "pagePath": "pages/common/userinfo/userinfo",
+                "text": "userinfo"
+            }
+        ]
+    },
+    "preloadRule": {
+        "pages/survey/index/index": {
+            "network": "all",
+            "packages": [
+                "surveyPages"
+            ]
+        }
+    },
+    "networkTimeout": {
+        "request": 10000
+    },
+    "permission": {},
+    "plugins": {
+        "routePlan": {
+            "version": "1.0.16",
+            "provider": "wx50b5593e81dd937a"
+        }
+    },
+    "usingComponents": {
+        "tab-bar": "/pages/common/tabBar"
+    },
+    "sitemapLocation": "sitemap.json"
+}

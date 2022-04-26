@@ -1,0 +1,34 @@
+
+.intro {
+	font-size: large;
+	font-weight: 200;
+}
+.introBody {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 40rpx;
+	margin-left: 20rpx;
+	margin-right: 20rpx;
+	background-color: rgb(87, 107, 149, 0.4);
+	border-radius: 15rpx;
+}
+.carImg {
+	width: 650rpx;
+	height: 400rpx;
+	margin-top: 30rpx;
+}
+.state {
+	border-radius: 12rpx;
+	width: 130rpx;
+	height: 60rpx;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 55rpx;
+}
+.top {
+	background-color: rgb(87, 107, 149, 0.6);
+	height: auto;
+	border-radius: 40rpx;
+}
+

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "保养申报详情页",
+  "usingComponents": {
+    "uni-steps": "/uni_modules/uni-steps/components/uni-steps/uni-steps"
+  }
+}

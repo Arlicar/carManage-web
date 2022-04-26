@@ -1,0 +1,146 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 背景 */
+.content {
+	display: flex;
+	/* align-items: center; */
+	/* justify-content: center; */
+	background-color: #fff;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(#62a9f9, #4389f2);
+	position: absolute;
+}
+.intro {
+	font-size: large;
+	font-weight: 200;
+}
+.introBody {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.carImg {
+	width: 650rpx;
+	height: 400rpx;
+	margin-top: 30rpx;
+}
+.state {
+	border-radius: 12rpx;
+	width: 130rpx;
+	height: 60rpx;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 55rpx;
+}
+

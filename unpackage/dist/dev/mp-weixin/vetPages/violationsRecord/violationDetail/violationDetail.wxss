@@ -1,0 +1,107 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 背景 */
+.content {
+	display: flex;
+	align-items: center;
+	/* justify-content: center; */
+	flex-direction: column;
+	width: 100%;
+	height: 150%;
+	position: absolute;
+	background-image: linear-gradient(#62a9f9, #7bc4ff);
+}
+
+/* ---- */
+
+/* 内容主体 */
+.main {
+	position: absolute;
+	top: 130rpx;
+	width: 80%;
+	background-color: rgba(255, 255, 255, .2);
+	border-radius: 15rpx;
+	padding: 30rpx;
+	box-shadow: 10rpx 10rpx 10rpx -4rpx rgba(0, 0, 0, .4);
+}
+.bg-gray {
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 40rpx;
+	text-align: center;
+	border-radius: 15rpx;
+	box-sizing: border-box;
+}
+.word {
+	text-align: center;
+	height: 70rpx;
+	line-height: 70rpx;
+	font-weight: 600;
+	font-size: 35rpx;
+	color: #999999;
+}
+.main-text {
+	border-bottom: 4rpx solid #fff;
+}
+.img {
+	height: 250rpx;
+	border-radius: 15rpx;
+	border: 4rpx solid #fff;
+	width: 590rpx;
+}
+

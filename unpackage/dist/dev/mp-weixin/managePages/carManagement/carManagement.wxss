@@ -1,0 +1,736 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 背景 */
+.content {
+	display: flex;
+	/* align-items: center; */
+	/* justify-content: center; */
+	background-color: #fff;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(#7bc4ff, #4389f2);
+}
+/* ---- */
+/* 头部界面 */
+.top {
+	position: relative;
+	background-color: #62a9f9;
+	height: 250rpx;
+	border-bottom-left-radius: 20rpx;
+	border-bottom-right-radius: 20rpx;
+	box-shadow: 10rpx 10rpx 10rpx -4rpx rgba(0, 0, 0, .4);
+	margin-bottom: 30rpx;
+}
+.top .top-img {
+	position: absolute;
+	top: 15rpx;
+	left: 15rpx;
+	width: 220rpx;
+	height: 220rpx;
+	box-sizing: border-box;
+	box-shadow: 10rpx 10rpx 10rpx -4rpx rgba(0, 0, 0, .4);
+	border-radius: 50%;
+}
+.top .top-text {
+	position: absolute;
+	top: 80rpx;
+	right: 110rpx;
+	font-size: 55rpx;
+	font-weight: 600;
+	color: #fff;
+	text-shadow: 5rpx 5rpx 10rpx rgba(92, 163, 248, .4);
+}
+.top .top-btn {
+	position: absolute;
+	right: 10rpx;
+	bottom: 10rpx;
+	width: 90rpx;
+	height: 60rpx;
+	line-height: 60rpx;
+	font-size: 30rpx;
+	padding: 0;
+	color: #5da8e4;
+	font-weight: 600;
+}
+/* ---- */
+/* 搜索区 */
+.search-input {
+	background: pink;
+	border-radius: 10rpx;
+	margin: 20rpx 0;
+	position: relative;
+	height: 65rpx;
+	float: left;
+	width: 60%;
+	background-color: #fff;
+	margin-left: 25rpx;
+	margin-right: 61rpx;
+	border: 2rpx solid #62a9f9;
+}
+.search-input:hover {
+	box-shadow: 10rpx 10rpx 10rpx -4rpx rgba(0, 0, 0, .4);
+	-webkit-animation: searchShadow 0.5s;
+	        animation: searchShadow 0.5s;
+}
+.search-btn {
+	float: left;
+	width: 25%;
+	height: 69rpx;
+	margin-top: 20rpx;
+	line-height: 60rpx;
+	background-color: #62a9f9;
+	font-size: 40rpx;
+	color: #fff;
+}
+.button-hover {
+	opacity: 60%;
+}
+@-webkit-keyframes searchShadow {
+0% {
+		box-shadow: 10rpx 10rpx 10rpx -4rpx rgba(0, 0, 0, 0);
+}
+100% {
+		box-shadow: 10rpx 10rpx 10rpx -4rpx rgba(0, 0, 0, .4);
+}
+}
+@keyframes searchShadow {
+0% {
+		box-shadow: 10rpx 10rpx 10rpx -4rpx rgba(0, 0, 0, 0);
+}
+100% {
+		box-shadow: 10rpx 10rpx 10rpx -4rpx rgba(0, 0, 0, .4);
+}
+}
+/* ---- */
+.dialog {
+	background-color: #7bc4ff;
+	width: 500rpx;
+	height: 315rpx;
+	border-radius: 15rpx;
+	box-shadow: 10rpx 10rpx 10rpx -4rpx rgba(0, 0, 0, .4);
+	padding: 10rpx;
+}
+.dialog button {
+	width: 180rpx;
+	height: 70rpx;
+	background-color: #fff;
+	margin-top: 45rpx;
+	padding: 0;
+	font-size: 35rpx;
+	line-height: 70rpx;
+	font-weight: 600;
+	color: #7bc4ff;
+}
+/* 车内容区 */
+.list {
+	background: #fff;
+	border-radius: 50rpx;
+	margin: 20rpx;
+	position: relative;
+	box-shadow: 0 2rpx 4rpx rgba(0, 0, 0, .3);
+	height: auto;
+	background-color: #61a8f9;
+	justify-content: space-between;
+	align-items: center;
+}
+.list .list-img {
+	width: 250rpx;
+	height: 250rpx;
+}
+.list .list-text {
+	position: absolute;
+	left: 320rpx;
+	font-size: 40rpx;
+	font-weight: 600;
+	color: #fff;
+}
+.list .list-text1 {
+	top: 25rpx;
+}
+.list .list-text2 {
+	top: 90rpx;
+}
+.list .list-text3{
+	top: 170rpx;
+}
+.state {
+	border-radius: 12rpx;
+	width: 130rpx;
+	height: 60rpx;
+	/* vertical-align: middle; */
+	/* text-align: center; */
+	line-height: 55rpx;
+}
+.list-text4{
+	position: absolute;
+	left: 525rpx;
+	font-size: 25rpx;
+	color: #fff;
+	top: 200rpx;
+}
+/* ---- */
+/* 添加车辆 */
+.add-round {
+	position: fixed;
+	z-index: 2;
+	right: 30rpx;
+	bottom: 30rpx;
+	border-radius: 50%;
+	width: 120rpx;
+	height: 120rpx;
+	color: #4d93f4;
+	text-align: center;
+	line-height: 111rpx;
+	font-weight: 600;
+	font-size: 80rpx;
+	background-color: #fff;
+}
+.card {
+	background: #fff;
+	border-radius: 8rpx;
+	margin: 15rpx 0;
+	position: relative;
+	box-shadow: 0 2rpx 4rpx rgba(0, 0, 0, .3);
+	height: 75rpx;
+	width: 500rpx;
+}
+.table{
+	height: 1030rpx;
+	background-image: linear-gradient(#4389f2, #7bc4ff);
+	width: 600rpx;
+	border-radius: 20rpx;
+	box-shadow: 10rpx 10rpx 10rpx -4rpx rgba(0,0,0,.4);
+	padding-left: 40rpx;
+	padding-top: 40rpx;
+	box-sizing: border-box;
+}
+.documentUp{
+	background-color: #fff;
+	width: 500rpx;
+	border-radius: 10rpx;
+}
+.add-delete{
+	width: 80rpx;
+	text-align: center;
+	font-size: 30rpx;
+	font-weight: 600;
+	margin-left: 410rpx;
+	color: #d02926;
+}
+.add-btn{
+	width: 200rpx;
+	background-color: #FFFFFF;
+	font-weight: 600;
+	color: #70b8fd;
+	margin-top: 40rpx;
+	margin-left: 160rpx;
+}
+/* ---- */
+/* 图表 */
+.charts-box {
+	width: 100%;
+	height: 300px;
+}
+
+

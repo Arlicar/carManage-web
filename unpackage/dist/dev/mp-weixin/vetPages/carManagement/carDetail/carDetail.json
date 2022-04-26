@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "汽车详情",
+  "usingComponents": {
+    "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card"
+  }
+}

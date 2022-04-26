@@ -1,0 +1,403 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url("../../common/uni.css"); */
+.content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: linear-gradient(#62a9f9, #4389f2 );
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.title-top {
+	/*顶部title */
+	font-size: 50rpx;
+}
+/* 实名认证图片 */
+.img-top {
+	position: absolute;
+	top: 80rpx;
+	width: 220rpx;
+	height: 200rpx;
+	border: 4rpx solid rgba(120, 193, 254, .6);
+	border-radius: 20rpx;
+	box-shadow: 10rpx 10rpx 10rpx -4rpx rgba(0, 0, 0, .4);
+}
+/* 表单区 */
+.uni-group.data-v-176b3b64 {
+	border-radius: 20rpx;
+	box-shadow: 10rpx 10rpx 10rpx -4rpx rgba(0, 0, 0, .4);
+	border: 8rpx solid rgba(120, 193, 254, .6);
+	box-sizing: border-box;
+}
+/* 狗勾 */
+.dogRun {
+	position: absolute;
+	bottom: 80rpx;
+	width: 530rpx;
+	height: 115rpx;
+}
+/* 提交按钮 */
+.submit {
+	position: absolute;
+	bottom: 220rpx;
+	left: 180rpx;
+	width: 170rpx;
+	box-shadow: 10rpx 10rpx 10rpx -4rpx rgba(0, 0, 0, .4);
+}
+button[type=primary] {
+	background-color: #5ca3f8;
+}
+.button-hover[type=primary] {
+	background-color: #aedafe;
+}
+/* 重置按钮 */
+.reset {
+	position: absolute;
+	bottom: 220rpx;
+	right: 180rpx;
+	width: 170rpx;
+	box-shadow: 10rpx 10rpx 10rpx -4rpx rgba(0, 0, 0, .4);
+}
+/* 表单中的字体 */
+.uni-forms-item__label .label-text.data-v-61dfc0d0 {
+	color: #4b91f4 !important;
+}
+.uni-list-cell-left {
+	color: #4b91f4;
+}
+/* input输入框 */
+.is-input-border.data-v-abe12412 {
+	box-shadow: none;
+}
+.is-input-border.data-v-abe12412:hover {
+	box-shadow: 10rpx 10rpx 10rpx -4rpx rgba(0, 0, 0, .4);
+	-webkit-animation: shadowShow 1.5s;
+	        animation: shadowShow 1.5s;
+}
+/* 拍照 */
+.camera {
+	width: 630rpx;
+	background-color: #FFFFFF;
+	padding: 40rpx;
+	border-radius: 15rpx;
+	box-shadow: 10rpx 10rpx 10rpx -4rpx rgba(0, 0, 0, .4);
+}
+/* 动画 */
+@-webkit-keyframes shadowShow {
+0% {
+		box-shadow: 10rpx 10rpx 10rpx -4rpx rgba(0, 0, 0, 0);
+}
+100% {
+		box-shadow: 10rpx 10rpx 10rpx -4rpx rgba(0, 0, 0, .4);
+}
+}
+@keyframes shadowShow {
+0% {
+		box-shadow: 10rpx 10rpx 10rpx -4rpx rgba(0, 0, 0, 0);
+}
+100% {
+		box-shadow: 10rpx 10rpx 10rpx -4rpx rgba(0, 0, 0, .4);
+}
+}
+
